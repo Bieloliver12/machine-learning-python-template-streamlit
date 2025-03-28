@@ -7,7 +7,7 @@ def main():
     st.write('**Por favor seleccione el servicio predictivo que desea utilizar**')
     
     opcion = st.radio('Seleccione el servicio:', 
-                      ('Predicción del tipo de flor (con CSV)', 'Predicción del tipo de flor (manualmente)', 'Predicción de imagen','Maqueta','Sliders'), 
+                      ('Predicción del tipo de flor (con CSV)','Predicción de imagen'), 
                       index=0, 
                       key='option')
     
@@ -17,14 +17,8 @@ def main():
 def route_prediction(opcion):
     if opcion == 'Predicción del tipo de flor (con CSV)':
         switch_page("pred_iris_csv")
-    elif opcion == 'Predicción del tipo de flor (manualmente)':
-        switch_page("pred_iris_man")
     elif opcion == 'Predicción de imagen':
         switch_page("pred_imagen")
-    elif opcion == 'Maqueta':
-        switch_page("maqueta")
-    elif opcion == 'Sliders':
-        switch_page("sliders")
 
 if __name__ == "__main__":
     main()
