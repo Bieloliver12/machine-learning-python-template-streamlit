@@ -1,4 +1,8 @@
 # your code here
+
+# https://crispy-lamp-5gxpv5rvj9g437v4p-8501.app.github.dev/
+
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 
@@ -73,7 +77,4 @@ if __name__ == "__main__":
     main()
 
 
-# https://docs.streamlit.io/library/get-started/multipage-apps
-# Local: streamlit run streamlit_tutorial.py
-# Streamlit Sharing 
-# render, heroku, AWS EC2
+# https://crispy-lamp-5gxpv5rvj9g437v4p-8501.app.github.dev/
